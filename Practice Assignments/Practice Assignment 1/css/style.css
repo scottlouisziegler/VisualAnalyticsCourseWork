@@ -1,0 +1,38 @@
+
+
+	article {
+		width: 80%;
+		margin: auto;
+		background-color:#eee;
+	}
+	#bar-demo {
+	  font: 10px sans-serif;
+	}
+  .chart {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+  }
+
+  .axis path, .axis line {
+    fill: none;
+    stroke: #0000ff;
+    stroke-width: 2px;
+    shape-rendering: crispEdges;
+  }
+
+  .bar {
+    fill: gray;
+    z-index: 1000;
+	stroke-width: 1px;
+  }
+  .grid .tick {
+    stroke: lightgrey;
+    opacity: 1;
+    z-index: -1000;
+}
+.grid path {
+      stroke-width: 0;
+      z-index: -1000;
+
+}
+
