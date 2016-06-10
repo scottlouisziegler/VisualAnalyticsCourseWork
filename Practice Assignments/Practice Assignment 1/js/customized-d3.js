@@ -1,7 +1,7 @@
 
 $(document).ready(function(){ /// jQuery function that starts JavaScript when DOM loads
 /// Data in JSON format. In this type of JSON variables before ":" are called keys, after semicolon are called values.
-  var data = [{"date":"2016-01","total":36, "color":"red"},{"date":"2016-02","total":59, "color":"orange"},{"date":"2016-03","total":113, "color":"yellow"},{"date":"2016-04","total":81, "color":"green"},{"date":"2016-05","total":80, "color":"blue"},{"date":"2016-06","total":25, "color":"indigo"}];
+  var data = [{"date":"2016-01","total":36, "color":"red"},{"date":"2016-02","total":45, "color":"orange"},{"date":"2016-03","total":53, "color":"yellow"},{"date":"2016-04","total":81, "color":"green"},{"date":"2016-05","total":20, "color":"blue"},{"date":"2016-06","total":11, "color":"indigo"}];
 
 var margin = {top: 40, right: 40, bottom: 40, left:40}, //// The concept of margins is best explained here: http://bl.ocks.org/mbostock/3019563
     width = 600, ///width and height of the SVG image 
